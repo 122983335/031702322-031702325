@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            alert(jie.style.width);
+            var jie=document.getElementById('text1');
+            var btn=document.getElementById('btn1');
+            btn.click=function () {
+                alert(jie.style.width);
+            }
+            var oDiv=document.getElementById('0123');
+            alert(oDiv.style.width);
+        };
+        var jks=document.getElementById('012');
+        jks.click=function () {
+            alert("adasdas");
+        }
+    </script>
+    <style type="text/css">
+        .class2{
+            background-image: url("zxc1.png");
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+        .class1{
+            font-size: larger;
+            font-family: 微软雅黑;
+            text-align: center;
+        }
+        .class3{
+            width: 700px;
+            height: 300px;
+            border-width: 3px;
+            border-coler: black;
+            position: absolute;
+            left:600px;
+            top:50px;
+
+        }
+        .class4{
+            background: aqua;
+            position: absolute;
+            font-family: 隶书;
+            left: 800px;
+            top:400px;
+
+        }
+
+    </style>
+</head>
+<body class="class2">
+
+      <p class="class1" >输入家族树</p>
+      <textarea id="text1" class="class3" >
+      在这里输入导师和学生数据
+
+      </textarea>
+      <div class="class4" id="012" >
+          <a href="treex.html"> 提交</a>
+      </div>
+
+      <h3></h3>
+
+</body>
+</html>
